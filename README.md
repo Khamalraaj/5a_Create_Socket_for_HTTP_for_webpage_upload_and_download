@@ -46,11 +46,9 @@ if __name__ == "__main__":
     host = 'example.com'
     port = 80
 
-    # Upload file
     upload_response = upload_file(host, port, 'example.txt')
     print("Upload response:", upload_response)
 
-    # Download file
     download_file(host, port, 'example.txt')
     print("File downloaded successfully.")
 ```
